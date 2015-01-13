@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JXT.PrimaryKey.Batman.Web", "JXT.PrimaryKey.Batman.Web\JXT.PrimaryKey.Batman.Web.csproj", "{5891BA96-D25A-445A-A76A-3AC6374A465E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JXT.PrimaryKey.Batman.Core", "..\JXT.PrimaryKey.Batman.Core\JXT.PrimaryKey.Batman.Core.csproj", "{018DAA84-931B-47FC-A79D-E4EE8D611E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JXT.PrimaryKey.Batman.Test", "..\JXT.PrimaryKey.Batman.Test\JXT.PrimaryKey.Batman.Test.csproj", "{34D02B2A-368A-4613-B01C-92E11E51D568}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA94D622-7B67-4287-A582-6EF89D3B293B}"
+	ProjectSection(SolutionItems) = preProject
+		JXT.PrimaryKey.Batman.Web.vsmdi = JXT.PrimaryKey.Batman.Web.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "JXT.PrimaryKey.Batman.Moding", "JXT.PrimaryKey.Batman.Moding\JXT.PrimaryKey.Batman.Moding.modelproj", "{413C6CDB-9B09-429C-8EC0-816C320DE7EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{1292920C-8DC9-4D8C-B2CB-9F46767ADEBA}"
+	ProjectSection(SolutionItems) = preProject
+		lib\log4net.dll = lib\log4net.dll
+		lib\Memcached.ClientLibrary.dll = lib\Memcached.ClientLibrary.dll
+		lib\Microsoft.Practices.Unity.Configuration.dll = lib\Microsoft.Practices.Unity.Configuration.dll
+		lib\Microsoft.Practices.Unity.dll = lib\Microsoft.Practices.Unity.dll
+		lib\Microsoft.Practices.Unity.Interception.Configuration.dll = lib\Microsoft.Practices.Unity.Interception.Configuration.dll
+		lib\Microsoft.Practices.Unity.Interception.dll = lib\Microsoft.Practices.Unity.Interception.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JXT.PrimaryKey.Batman.Dal", "..\JXT.PrimaryKey.Batman.Dal\JXT.PrimaryKey.Batman.Dal.csproj", "{EBE088E8-7DD4-4667-8BEB-C5DD68887C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JXT.PrimaryKey.Batman.Dal.Repositories", "..\JXT.PrimaryKey.Batman.Dal.Repository\JXT.PrimaryKey.Batman.Dal.Repositories.csproj", "{7136C993-77B4-470D-9EBC-28A90EC61338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JXT.PrimaryKey.Batman.Model", "..\JXT.PrimaryKey.Batman.Model\JXT.PrimaryKey.Batman.Model.csproj", "{E5F3BC7E-03C9-470F-B7DC-490E905EDB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JXT.PrimaryKey.Batman.Services", "..\JXT.PrimaryKey.Batman.Services\JXT.PrimaryKey.Batman.Services.csproj", "{C1FC7093-BCEF-4130-9B93-3C2A79715036}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = JXT.PrimaryKey.Batman.Web.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5891BA96-D25A-445A-A76A-3AC6374A465E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5891BA96-D25A-445A-A76A-3AC6374A465E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5891BA96-D25A-445A-A76A-3AC6374A465E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5891BA96-D25A-445A-A76A-3AC6374A465E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018DAA84-931B-47FC-A79D-E4EE8D611E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018DAA84-931B-47FC-A79D-E4EE8D611E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018DAA84-931B-47FC-A79D-E4EE8D611E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018DAA84-931B-47FC-A79D-E4EE8D611E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D02B2A-368A-4613-B01C-92E11E51D568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D02B2A-368A-4613-B01C-92E11E51D568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D02B2A-368A-4613-B01C-92E11E51D568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D02B2A-368A-4613-B01C-92E11E51D568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413C6CDB-9B09-429C-8EC0-816C320DE7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413C6CDB-9B09-429C-8EC0-816C320DE7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413C6CDB-9B09-429C-8EC0-816C320DE7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413C6CDB-9B09-429C-8EC0-816C320DE7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE088E8-7DD4-4667-8BEB-C5DD68887C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE088E8-7DD4-4667-8BEB-C5DD68887C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE088E8-7DD4-4667-8BEB-C5DD68887C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE088E8-7DD4-4667-8BEB-C5DD68887C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7136C993-77B4-470D-9EBC-28A90EC61338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7136C993-77B4-470D-9EBC-28A90EC61338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7136C993-77B4-470D-9EBC-28A90EC61338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7136C993-77B4-470D-9EBC-28A90EC61338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F3BC7E-03C9-470F-B7DC-490E905EDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F3BC7E-03C9-470F-B7DC-490E905EDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F3BC7E-03C9-470F-B7DC-490E905EDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F3BC7E-03C9-470F-B7DC-490E905EDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FC7093-BCEF-4130-9B93-3C2A79715036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FC7093-BCEF-4130-9B93-3C2A79715036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FC7093-BCEF-4130-9B93-3C2A79715036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FC7093-BCEF-4130-9B93-3C2A79715036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

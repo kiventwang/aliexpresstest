@@ -1,0 +1,13 @@
+﻿@model ViewMenuModel
+<div id="navbar" class="navbar-collapse collapse navbar-inverse ">
+    <ul class="nav navbar-nav">
+        @for (var i = 0; i < Model.MenuInformation.Count; i++)
+        {
+            var menuInfo = Model.MenuInformation[(i + 1).ToString()];
+            <li>
+                <a href="@Url.Action(menuInfo.ApiName, new { accessToken =Model.AccessToken })">@menuInfo.MenuName</a>
+            </li>
+        }
+       
+    </ul>
+</div>
